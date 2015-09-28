@@ -1,0 +1,26 @@
+{
+    "name":"samsonos/cms_input_structure",
+    "description":"SamsonCMS Select input structure",
+    "authors":[
+        {
+            "name":"Vitaly Iegorov",
+            "email":"egorov@samsonos.com"
+        },
+        {
+            "name":"Molodyko Ruslan",
+            "email":"molodyko@samsonos.com"
+        }
+    ],
+    "require":{
+        "samsonos/cms_input":"*",
+        "samsonos/js_core":"*"
+    },
+    "license":"Open Software License (OSL) v 3.0",
+    "homepage":"http://samsonos.com/",
+    "autoload": {
+        "classmap": ["src/"],
+        "psr-0": {
+            "samsoncms\\input\\select": "src/"
+        }
+    }
+}

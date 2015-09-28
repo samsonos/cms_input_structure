@@ -1,0 +1,10 @@
+<div class="template-form-input-group select-structure-wrapper">
+    <!--<div class="form-field-title select-structure-title">
+            <span>
+                <?php iv('nameSelectStructureField') ?>
+            </span>
+    </div>-->
+    <select multiple class="material-structure-selectify" data-href-add="/cms/samsoncms_input_structure_application/add/<?php iv('matId') ?>/<?php iv('fieldId') ?>" data-href-remove="/cms/samsoncms_input_structure_application/remove/<?php iv('matId') ?>/<?php iv('fieldId') ?>">
+        <?php iv('parentSelect') ?>
+    </select>
+</div>
